@@ -4,15 +4,16 @@
 Raw data was obtained from UCI Machine Learning repository. We used the Human Activity Recognition Using Smartphones Data Set, that was used by the original collectors to conduct experiments exploiting Support Vector Machine (SVM).
 Activity Recognition (AR) aims to recognize the actions and goals of one or more agents from a series of observations on the agents' actions and the environmental conditions. 
 
-## Subject: the integer subject ID.
-Activity: the string activity name:
-Walking
-Walking Upstairs
-Walking Downstairs
-Sitting
-Standing
-Laying
-Measurement Means
+## Data Description
+1. Subject: the integer subject ID that uniquely identifies a record.
+2. Activity: The different activity groups that the data is measured in. 
+ * Walking
+ * Walking Upstairs
+ * Walking Downstairs
+ * Sitting
+ * Standing
+ * Laying
+ * Measurement Means
 
 All variables are the mean of a measurement for each subject and activity. This is indicated by the initial Mean in the variable name. All values are floating point numbers.
 
