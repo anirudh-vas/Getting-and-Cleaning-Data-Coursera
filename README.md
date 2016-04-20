@@ -9,7 +9,6 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-Good luck!
 
 ## Description of the project 
 The task was to transform the original dataset into a clean and tidy dataset.
