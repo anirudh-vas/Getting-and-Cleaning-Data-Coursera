@@ -62,7 +62,7 @@ aggregateddata <- aggregate(required_data[, 3:ncol(required_data)],
 
 
 ##########################################################################################
-#  Cleaning the Feature names and writing the data frame to a tidy CSV File
+#  Cleaning the Feature names and writing the data frame to a tidy Text File
 ##########################################################################################
 
 # Remove parentheses
@@ -83,5 +83,5 @@ names(aggregateddata) <- gsub('Freq$',"Frequency",names(aggregateddata))
 
 
 
-write.csv(format(aggregateddata, scientific=T), "UCI_HAR_Tidy_Data.csv",
+write.table(format(aggregateddata, scientific=T), "UCI_HAR_Tidy_Data.txt",
             row.names=F)
